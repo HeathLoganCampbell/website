@@ -1,8 +1,116 @@
 <html>
-  <head>
-    <title>Heath Logan Campbell</title>
-  </head>
-  <body>
-    <h1>Heath</h1>
-  </body>
+	<head>
+		<title>Heath Logan Campbell</title>
+		<link
+			href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+			rel="stylesheet"
+			id="bootstrap-css"
+		/>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<style>
+			* {
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+					Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+					sans-serif;
+			}
+
+			.container {
+				margin: 15px;
+			}
+
+			.blue-words,
+			a {
+				color: #1d62e0;
+				font-weight: 700;
+			}
+
+			/*
+        TIMELINE STYLE
+      */
+			ul.timeline {
+				list-style-type: none;
+				position: relative;
+			}
+			ul.timeline:before {
+				content: " ";
+				background: #d4d9df;
+				display: inline-block;
+				position: absolute;
+				left: 29px;
+				width: 2px;
+				height: 100%;
+				z-index: 400;
+			}
+			ul.timeline > li {
+				margin: 20px 0;
+				padding-left: 20px;
+			}
+			ul.timeline > li:before {
+				content: " ";
+				background: white;
+				display: inline-block;
+				position: absolute;
+				border-radius: 50%;
+				border: 3px solid #22c0e8;
+				left: 20px;
+				width: 20px;
+				height: 20px;
+				z-index: 400;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Heath Logan Campbell</h1>
+			<p class="stickToHeader blue-words ">
+				Computer Science & Infomational Systems
+			</p>
+			<h2 class="header">Projects</h2>
+			<ul class="list">
+				<li>
+					<a href="https://github.com/HeathLoganCampbell/Retro-Craft"
+						>RetroCraft</a
+					>
+					- a clone of minecraft that uses no libraries
+				</li>
+				<li>
+					<a href="https://github.com/HeathLoganCampbell/Mini-Raytracer"
+						>Mini Ray Tracer</a
+					>
+					- A basic raytracer that generates 3D shapes
+				</li>
+				<li>
+					<a href="https://github.com/HeathLoganCampbell/sharable-webtimer"
+						>Sharable Webtimer</a
+					>
+					- A webtimer that can be easily shared and bookmarked
+				</li>
+			</ul>
+			<h2 class="header">History</h2>
+			<div class="container mt-4 mb-4">
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="timeline">
+							<li>
+								<a target="_blank" href="">Finish High School</a>
+								<a href="#" class="float-right">10 November, 2016</a>
+								<p>
+									...
+								</p>
+							</li>
+							<li>
+								<a href="#">Start University</a>
+								<a href="#" class="float-right">4 March, 2017</a>
+								<p>
+									Start Computer Science and Infomational Systems at
+									the University Of Auckland
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
